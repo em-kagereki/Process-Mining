@@ -13,17 +13,14 @@ Cardiovascular diseases (CVDs), principally ischemic heart disease (IHD) and car
 The chances of a patient to have good outcomes are usually high if substantive medical attention is given within  the first hour of the event, often called the "golden hour". It is therefore important to accurately estimate the risk for untoward outcomes after a suspected onset of an ACS and thereafter chose the type and intensity of therapy. For example, patients predicted to be at higher risk may receive more aggressive surveillance and/or treatment, while patients predicted to be at lower risk may be managed less aggressively.
 
 
-In this project, I  considered a similar prediction problem. Interpreting events of an 
-event log as outcomes of decisions, our goal is to build a predictive analytics model 
-that accounts for the sequential nature of decision making in business processes. 
-Provided with a partial sequence of events from an unfinished process instance, the 
-model's task is quantifying the likelihood of the instance ending with certain future 
-sequences. The model should be trained solemnly by means of event log data.
+In this project, I build a predictive analytics model 
+that accounts for the sequential nature of decision making in the emergency care of the patients. 
+Provided with a time stamped events in real life patient care scenario, the 
+model's task is quantifying the likelihood of the patient losing their life or surviving the cardiac event. 
 
 Such a predictive model could be useful in variety of situations. For instance, early 
-warning systems could be built. Decision makers could be provided with a list of 
-running process instances in which undesirable events will likely be observed in the 
-future. A predictive model could also be used to estimate how many running instances 
+warning systems could be built. Through a decision support system, clinicians  could be provided with a list of  patients with a high risk of mortality 
+. A predictive model could also be used to estimate how many running instances 
 will require a certain resource, again to warn decision makers if capacities will be 
 exceeded. Moreover, anomaly detection approaches could be built to identify highly 
 unlikely process instances. They could help pointing business analysts to unusual 
@@ -43,7 +40,21 @@ acknowledged as having a significant effect on the predictive power of a predict
 process model.
 
 
-### Markdown
+### ACS care pathway
+
+
+## Predisction model
+
+
+## Events log
+
+
+
+## Value architect
+
+
+
+## Process mining
 
 
 
